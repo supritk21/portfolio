@@ -1,0 +1,41 @@
+/* work-experience.css */
+
+/* Container for work experience details */
+.work-experience-details {
+  background-color: rgb(186, 223, 220, 0.35); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Experience box */
+.experience-box {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd; /* Border for separation */
+  border-radius: 4px;
+}
+
+/* Headers */
+.experience-box h3 {
+  font-size: 1.5em; /* Larger font size */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Regular text */
+.experience-box p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* List items */
+.experience-box ul {
+  list-style: disc; /* Bullet points */
+  margin-left: 20px;
+}
+
+.experience-box li {
+  margin-bottom: 10px;
+}

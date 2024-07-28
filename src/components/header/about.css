@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: rgb(237, 166, 225, 0.8); */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+  }
+  
+  .about h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.5em;
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px; /* Limit text width for readability */
+  }
+  
