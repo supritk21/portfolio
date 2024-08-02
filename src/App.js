@@ -1,11 +1,11 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // import Header from '/src/components/Header/header.js'
-import Header from './components/header/header';
-import Home from './components/header/home'
-import About from './components/header/about';
-import Contact from './components/header/contact';
+// import Header from './components/header/header';
+// import Home from './components/header/home'
+// import About from './components/header/about';
+// import Contact from './components/header/contact';
 import Footer from './components/footer/footer';
 import Body from './components/body/body';
 import Achievements from './components/header/achievements';
@@ -13,7 +13,7 @@ import Achievements from './components/header/achievements';
 function App() {
   return (
     <div className="App">
-       <Router>
+       {/* <Router>
         <Header />
         <main>
           <Routes>
@@ -24,8 +24,11 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
-    </Router>
+    </Router> */}
     <Body/>
+    {/* <About/> */}
+    <Achievements/>
+  
     <Footer/>
     
     </div>

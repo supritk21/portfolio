@@ -15,10 +15,12 @@
   }
   
   .about p {
+    text-align: left;
     font-size: 1.5em;
     color: #666;
     line-height: 1.6;
     text-align: center;
     max-width: 800px; /* Limit text width for readability */
+    
   }
   

@@ -21,6 +21,9 @@ h2 {
   text-align: center;
 }
 
+.grid-item:hover {
+  background-color: rgba(135, 132, 132, 0.7);
+}
 .university-logo {
   width: 100px; /* Adjust size as needed */
   height: auto;
