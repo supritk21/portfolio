@@ -105,10 +105,10 @@ function ProjectDetails() {
         </p>
       </div> */}
       <div className='project-box'>
-      <h3>Machine Translation with Data Augmentation</h3>
+      <h3>Machine Translation </h3>
       <p>
       <ul>
-        <li>Developed a machine translation model for low-resource languages (Marathi, local Indian languages) by performing data augmentation.</li>
+        <li>Developed a machine translation model for English to Hindi translation</li>
         <li>Utilized subword-level and word-level tokenization techniques.</li>
         <li>Trained the model using a 4-layer bidirectional LSTM architecture, implementing gradient clipping to prevent the exploding gradient problem.</li>
         <li>Also trained the model on a 6-layer encoder-decoder Transformer architecture.</li>
